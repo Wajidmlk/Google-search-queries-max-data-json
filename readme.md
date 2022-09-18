@@ -1,8 +1,8 @@
 there are two APIS in Google Maps Api project
 
-1.  **[getPlacesByArea](#run-get-places-by-area-api)** Fetches almost all real data(Name, Address, Phone etc) present in Google Maps, in specific area and range provided in request.
+1.  **[getPlacesByArea](#run-get-places-by-area-api)** Problem is google allows max 60 records per search, Core purpose of solution is to get maximum resolts in area, Fetches almost all real data(Name, Address, Phone etc) present in Google Maps, in specific area and range provided in request.
 
-2.  **[getRelaventSearchedPages](#run-get-relevent-search-pages-by-area-api)** Fetches all relavent data available on google search pages.
+2.  **[getRelaventSearchedPages](#run-get-relevent-search-pages-by-area-api)** Fetches all relavent data available on google search pages in JSON format.
 
 
 ## Run project with below commands
@@ -43,6 +43,7 @@ Fill desired data for your search */getPlacesByArea/<**areaName**>/<**keyword**>
    ```
 
 **Visual Representation**
+Each pointer searches max 60 records.
   ![Google-Map_Pointer](google-api-pointers.png)
   
 
